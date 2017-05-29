@@ -37,7 +37,7 @@ body {
   padding: 9px;
 }
 
-.Cube button:hover {
+.Cube button:hover { /* Animimation code is at the bottom of this CSS file */
   animation-name: Fancy;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
@@ -84,14 +84,14 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) { /* This reformats the social media logos for small screens */
   footer {
     flex-direction: column;
     background-color: transparent;
   }
 }
 
-footer button {
+footer button { /* To get rid of the ugly white background for buttons */
   background-color: transparent;
   border: none;
 }
@@ -104,25 +104,21 @@ footer button {
 .linkedin img {
   background-color: #0077B5;
   border-radius: 20px;
-
 }
 
 .twitter img {
   background-color: #0084b4;
   border-radius: 20px;
-
 }
 
 .soundcloud img {
   background-color: #ff7700;
   border-radius: 20px;
-
 }
 
 .youtube img {
   background-color: #c4302b;
   border-radius: 20px;
-
 }
                                               /*Animations and keyframes below*/
 
